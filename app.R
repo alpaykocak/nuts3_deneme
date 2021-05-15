@@ -3,7 +3,6 @@ library(tidyverse)
 library(gapminder)
 library(treemapify)
 library(readxl)
-library(readxl)
 pivot <- read_excel("/Users/necmettinalpaykocak/Documents/shiny_trials/nuts3_deneme/pivot.xls",skip = 1)
 pivot <- pivot[,3:6]
 colnames(pivot) <- c("tip", "il","yıl","veri")
